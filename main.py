@@ -16,8 +16,8 @@ for url in urls:
 
         h1_tag = soup.find('h1', class_='title-page').text
         span_tag_name = soup.find_all('span', class_='col-xs-6 col-sm-7')[2].get_text(strip=True) 
-        span_tag_customer_name = soup.find_all('span', class_='col-xs-6 col-sm-7')[5].get_text(strip=True) 
-        span_tag_phone = soup.find_all('span', class_='col-xs-6 col-sm-7')[6].get_text(strip=True) 
+        span_tag_customer_name = soup.find_all('span', class_='col-sm-8 col-xs-6')[2].get_text(strip=True) 
+        span_tag_phone = soup.find_all('span', class_='col-sm-8 col-xs-6')[3].get_text(strip=True) 
 
         with open('data.csv', 'a', encoding='utf-8-sig', newline='') as f:
             csvwriter = csv.writer(f)
