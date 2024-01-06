@@ -1,1 +1,1 @@
-print('Hello DevCraftTech')
+console.log('Hello DevCraftTech')
