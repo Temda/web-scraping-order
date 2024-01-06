@@ -1,3 +1,3 @@
-
-console.log('Hello DevCraftTech get YOLO')
+const Pair = "Hello DevCraftTech"
+console.log(`${Pair}`)
 
