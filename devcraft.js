@@ -1,3 +1,3 @@
-const Pair = "Hello DevCraftTech"
+const Pair = "Hello DevCraftTech get Pair Extraordinaire"
 console.log(`${Pair}`)
 
